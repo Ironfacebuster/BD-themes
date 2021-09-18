@@ -1,9 +1,10 @@
 /**
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
- * @authorLink https://github.com/Ironfacebuster
- * @version 1.0.2
+ * @authorLink https://twitter.com/ironfacebuster
+ * @version 1.0.3
  * @description Inspired by the promotional images on discord.com
+ * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
 
 :root {
@@ -100,6 +101,17 @@
     background-color: var(--background-secondary);
 }
 
+.membersGroup-v9BXpm.container-2ax-kl {
+    text-transform: none;
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: var(--font-primary);
+}
+
+.member-3-YXUe.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md {
+    background-color: #312f51;
+}
+
 /* profile picture resizing */
 
 .theme-dark .member-3-YXUe, .theme-light .member-3-YXUe {
@@ -118,6 +130,22 @@
     transform: translateY(-50%);
     width: 30px;
     height: auto;
+}
+
+/*
+    tab bar
+*/
+
+.theme-dark .tabBarItem-3dfX8P.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .body-r6_QPy .infoScroller-1Qu30O.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .body-r6_QPy .listScroller-3GmIYj.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    background-color: var(--background-primary);
 }
 
 /* 
@@ -149,6 +177,34 @@
 .theme-dark .modeSelected-346R90 div.content-1x5b-n, .theme-light .modeSelected-346R90 div.content-1x5b-n {
     border-radius: 5px;
     background-color: var(--background-primary);
+}
+
+/*
+    user modal
+*/
+
+.theme-dark .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-dark .bodyInnerWrapper-26fQXj, .theme-dark .footer-3UKYOU, .theme-light .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-light .bodyInnerWrapper-26fQXj, .theme-light .footer-3UKYOU {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .customStatus-oN4ZZY, .theme-light .customStatus-oN4ZZY {
+    margin-top: 10px;
+}
+
+/*
+    role things
+*/
+
+.role-2irmRk.flex-1O1GKY.alignCenter-1dQNNs {
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.role-2irmRk.flex-1O1GKY.alignCenter-1dQNNs .roleCircle-3xAZ1j {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 0px;
 }
 
 /*
