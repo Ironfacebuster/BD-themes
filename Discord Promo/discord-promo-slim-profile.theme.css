@@ -2,8 +2,8 @@
  * @name (ADDON) Discord Promo Theme Slim Profiles
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.0
- * @description Make profile modals slimmer, like the promotional images. Will not work without the base Discord Promo Theme.
+ * @version 1.0.1
+ * @description Make profile modals slimmer, like the promotional images. Will not work properly without the base Discord Promo Theme.
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
 
@@ -53,6 +53,11 @@
     margin-bottom: 10px;
     top: 0px;
     width: fit-content;
+}
+
+.avatarPositionPremium-3We5Ho~.headerTop-3vNv-a.headerTopWithCustomStatus-1DHAjX {
+    -webkit-filter: none;
+    filter: none;
 }
 
 .mask-1l8v16.svg-2V3M55 foreignObject {
