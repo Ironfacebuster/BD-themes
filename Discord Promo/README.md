@@ -1,7 +1,7 @@
 ## Want your discord to look like the promotional images on [discord.com](https://discord.com/)?
 You're in luck! I did too, so I made this theme!
 
-I thought the colors that were used in the promotional images were pretty nice, and leagues above the default dark, so I made a theme!
+I thought the colors that were used in the promotional images were pretty nice, and leagues above the default dark.
 
 `Note: BetterDiscord (or another modification that can load css files) is required!`
 
