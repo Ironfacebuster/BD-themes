@@ -2,7 +2,7 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.5
+ * @version 1.0.6
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
@@ -300,6 +300,11 @@ foreignObject .avatarHintInner-1TvA8u {
 
 .mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-120)"]+rect {
     clip-path: circle(40% at 50% 65%);
+    mask: none;
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#8b4b7ecb-8b66-40ac-8521-0e3a63be04b8)"]+svg {
+    clip-path: circle(25% at center);
     mask: none;
 }
 
