@@ -466,3 +466,27 @@ foreignObject .avatarHintInner-1TvA8u {
     width: 40px;
     height: 40px;
 }
+
+/*
+    delete message modal
+*/
+
+.theme-dark .header-1TKi98 {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .message-2qRu38 {
+    background-color: var(--background-primary);
+}
+
+.message-2qRu38 * {
+    background-color: var(--background-primary);
+}
+
+.content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih {
+    background-color: var(--background-primary);
+}
