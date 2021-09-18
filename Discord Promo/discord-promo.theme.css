@@ -2,14 +2,14 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.3
+ * @version 1.0.4
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
 
 :root {
     /* interactive colors */
-    --interactive-normal: #b9bbbe;
+    --interactive-normal: #dbe7ff;
     --interactive-active: #ffffff;
     /* bg colors */
     --background-primary: #292841;
@@ -56,13 +56,6 @@
     margin-left: 5px;
 }
 
-/* profile picture resizing */
-
-.theme-dark .avatar-1BDn8e, .theme-light .avatar-1BDn8e {
-    width: 30px;
-    height: auto;
-}
-
 /* search bar */
 
 .theme-dark .search-2oPWTC.open-6_Y_aH, .theme-light .search-2oPWTC.open-6_Y_aH {
@@ -93,6 +86,29 @@
     background: 0 0!important
 }
 
+/*
+    reaction modal
+*/
+
+/* bot tag */
+
+.botText-1526X_ {
+    top: -25%;
+    transform: translateY(25%);
+}
+
+.scroller-1-nKid.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    background-color: var(--background-secondary);
+}
+
+.reactors-Blmlhw.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .reactionSelected-1pqISm {
+    background-color: var(--background-primary);
+}
+
 /* 
     member list 
 */
@@ -110,26 +126,6 @@
 
 .member-3-YXUe.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md {
     background-color: #312f51;
-}
-
-/* profile picture resizing */
-
-.theme-dark .member-3-YXUe, .theme-light .member-3-YXUe {
-    height: fit-content;
-    margin-bottom: 2px;
-}
-
-.theme-dark .avatar-3uk_u9 div.wrapper-3t9DeA, .theme-light .avatar-3uk_u9 div.wrapper-3t9DeA {
-    width: 40px;
-    height: auto;
-}
-
-.theme-dark .avatar-3uk_u9 div svg, .theme-light .avatar-3uk_u9 div svg {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 30px;
-    height: auto;
 }
 
 /*
@@ -183,12 +179,124 @@
     user modal
 */
 
+.theme-dark .userPopout-xaxa6l {
+    width: 250px !important;
+}
+
+.userPopout-xaxa6l .divider-ewBQKj {
+    display: none;
+}
+
+.userPopout-xaxa6l .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih {
+    padding-top: 15px;
+}
+
+.avatar-37jOim {
+    margin-top: 15px;
+    border: none;
+}
+
+.banner-2QYc2d.popoutBanner-19WKGg {
+    display: none;
+}
+
+.banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz {
+    opacity: 0.5;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.profileBadges-ohc0Vu.container-q03LZO {
+    width: fit-content;
+    height: 26px;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: width 0.5s linear;
+}
+
+.profileBadges-ohc0Vu.container-q03LZO .clickable-17BDii {
+    width: fit-content;
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profileBadges-ohc0Vu.container-q03LZO .clickable-17BDii:hover {
+    transform: scale(1.25, 1.25) translateY(2.5px);
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.avatarPositionPremium-3We5Ho~.headerTop-3vNv-a.headerTopWithCustomStatus-1DHAjX {
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.avatar-37jOim.wrapper-3t9DeA {
+    transform: scale(1.25, 1.25);
+}
+
+.userPopout-xaxa6l .avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionPremium-3We5Ho.clickable-1rcWFe {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    top: 0px;
+    width: fit-content;
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject {
+    /* clip: rect(10px, 20px, 30px, 40px); */
+    clip-path: circle(50% at center);
+    mask: none;
+}
+
+.mask-1l8v16.svg-2V3M55 rect {
+    clip-path: circle(50% at center);
+    background-color: gray;
+}
+
+.userPopout-xaxa6l .avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionNormal-aZjAsn.clickable-1rcWFe {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.userPopout-xaxa6l .headerTop-3vNv-a {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* margin-top: 0px; */
+    width: fit-content;
+    padding-top: 25px;
+}
+
 .theme-dark .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-dark .bodyInnerWrapper-26fQXj, .theme-dark .footer-3UKYOU, .theme-light .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-light .bodyInnerWrapper-26fQXj, .theme-light .footer-3UKYOU {
     background-color: var(--background-primary);
 }
 
-.theme-dark .customStatus-oN4ZZY, .theme-light .customStatus-oN4ZZY {
-    margin-top: 10px;
+.avatarHint-2A3RNb {
+    position: absolute;
+    width: 100px !important;
+    height: 100px !important;
+    left: 50%;
+    top: calc(50% + 7.5px);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.avatarHint-2A3RNb foreignObject {
+    position: relative;
+    /* z-index: 15; */
+    clip-path: circle(50% at center);
+    mask: none;
 }
 
 /*
@@ -198,6 +306,8 @@
 .role-2irmRk.flex-1O1GKY.alignCenter-1dQNNs {
     border-radius: 10px;
     padding-left: 5px;
+    height: fit-content;
+    font-size: normal;
 }
 
 .role-2irmRk.flex-1O1GKY.alignCenter-1dQNNs .roleCircle-3xAZ1j {

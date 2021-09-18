@@ -1,0 +1,78 @@
+/**
+ * @name (ADDON) Discord Promo Theme Slim Profiles
+ * @author Ironfacebuster | YGOLG#8005
+ * @authorLink https://twitter.com/ironfacebuster
+ * @version 1.0.0
+ * @description Make profile modals slimmer, like the promotional images. Will not work without the base Discord Promo Theme.
+ * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
+*/
+
+/*
+    user modal
+*/
+
+.theme-dark .userPopout-xaxa6l {
+    width: 250px !important;
+}
+
+.userPopout-xaxa6l .divider-ewBQKj {
+    display: none;
+}
+
+.userPopout-xaxa6l .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih {
+    padding-top: 15px;
+}
+
+.avatar-37jOim {
+    margin-top: 15px;
+    border: none;
+}
+
+.banner-2QYc2d.popoutBanner-19WKGg {
+    display: none;
+}
+
+.banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz {
+    display: none;
+}
+
+.profileBadges-ohc0Vu.container-q03LZO {
+    display: none;
+}
+
+.avatar-37jOim.wrapper-3t9DeA {
+    transform: scale(1.25, 1.25);
+}
+
+.userPopout-xaxa6l .avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionPremium-3We5Ho.clickable-1rcWFe {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    top: 0px;
+    width: fit-content;
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject {
+    /* clip: rect(10px, 20px, 30px, 40px); */
+    clip-path: circle(50% at center);
+    mask: none;
+}
+
+.customStatus-oN4ZZY {
+    display: none;
+}
+
+.aboutMeSection-1Fw5Ia {
+    display: none;
+}
+
+.root-3-B5F3.flex-1O1GKY.wrap-ZIn9Iy.rolesList-1geHY1+.bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9 {
+    display: none;
+}
+
+.note-1oo11U {
+    display: none;
+}
