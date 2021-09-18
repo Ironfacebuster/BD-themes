@@ -1,0 +1,245 @@
+/**
+ * @name Discord Promo Theme (Normal Avatars)
+ * @author Ironfacebuster | YGOLG#8005
+ * @authorLink https://twitter.com/ironfacebuster
+ * @version 1.0.2
+ * @description Inspired by the promotional images on discord.com, but with normal sized avatars.
+ * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
+*/
+
+:root {
+    /* interactive colors */
+    --interactive-normal: #b9bbbe;
+    --interactive-active: #ffffff;
+    /* bg colors */
+    --background-primary: #292841;
+    --background-secondary: #1c1b29;
+    --background-secondary-alt: #212031;
+    /* --background-tertiary: #11101a; */
+    --background-tertiary: #232231;
+    --background-accent: #403b82;
+    --background-secondary-faded: #1f1e29;
+    /* floating bg */
+    --background-floating: var(--background-secondary);
+    /* scrollbar colors */
+    --scrollbar-auto-thumb: #1c1a2b;
+    --scrollbar-thin-thumb: #26233a;
+    --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+    --scrollbar-auto-track: #212031;
+    --scrollbar-thin-track: var(--scrollbar-thin-track);
+    --scrollbar-auto-scrollbar-color-track: var(--scrollbar-thin-track);
+    /* channel text area */
+    --channeltextarea-background: #31324e;
+    --text-muted: #b9bbbe;
+    --header-secondary: rgb(199, 199, 199);
+    /* channel title stuff */
+    --channels-default: #888b90;
+}
+
+/* main window layout stuff */
+
+.theme-dark .username-1A8OIy, .theme-light .username-1A8OIy {
+    font-weight: 525;
+}
+
+.theme-dark .timestamp-3ZCmNB, .theme-light .timestamp-3ZCmNB {
+    margin-left: 0px;
+}
+
+.theme-dark .messageContent-2qWWxC .timestamp-3ZCmNB, .theme-light .messageContent-2qWWxC .timestamp-3ZCmNB {
+    margin-left: 5px;
+}
+
+/* .theme-dark .avatar-1BDn8e, .theme-light .avatar-1BDn8e {
+    width: 30px;
+    height: auto;
+} */
+
+/* search bar */
+
+.theme-dark .search-2oPWTC.open-6_Y_aH, .theme-light .search-2oPWTC.open-6_Y_aH {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .resultsGroup-r_nuzN, .theme-light .resultsGroup-r_nuzN {
+    background-color: var(--background-secondary-alt);
+}
+
+.theme-dark .option-96V44q.searchOption-zQ-1l6.selected-rZcOL-, .theme-light .option-96V44q.searchOption-zQ-1l6.selected-rZcOL- {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-, .theme-light .option-96V44q.searchOption-zQ-1l6.selected-rZcOL- {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .searchFilter-2ESiM3, .theme-light .searchFilter-2ESiM3 {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .searchAnswer-3Dz2-q, .theme-light .searchAnswer-3Dz2-q {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .option-96V44q:after, .theme-light .option-96V44q:after {
+    background: 0 0!important
+}
+
+/* 
+    member list 
+*/
+
+.theme-dark .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07, .theme-light .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
+    background-color: var(--background-secondary);
+}
+
+/* .theme-dark .member-3-YXUe, .theme-light .member-3-YXUe {
+    height: fit-content;
+    margin-bottom: 2px;
+}
+
+.theme-dark .avatar-3uk_u9 div.wrapper-3t9DeA, .theme-light .avatar-3uk_u9 div.wrapper-3t9DeA {
+    width: 40px;
+    height: auto;
+}
+
+.theme-dark .avatar-3uk_u9 div svg, .theme-light .avatar-3uk_u9 div svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: auto;
+} */
+
+/* 
+    channel names 
+*/
+
+/* default channel */
+
+.theme-dark .content-1x5b-n .mainContent-u_9PKf div.name-23GUGE, .theme-light .content-1x5b-n .mainContent-u_9PKf div.name-23GUGE {
+    transition: font-size 0.2s, font-weight 0.2s;
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+/* unread channel */
+
+.theme-dark .unread-2lAfLh+.content-1x5b-n .mainContent-u_9PKf div.name-23GUGE, .theme-light .unread-2lAfLh+.content-1x5b-n .mainContent-u_9PKf div.name-23GUGE {
+    font-weight: 550;
+    font-size: large;
+    transition: font-size 0.25s, font-weight 0.25s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.theme-dark .modeSelected-346R90 .mainContent-u_9PKf div.name-23GUGE, .theme-light .modeSelected-346R90 .mainContent-u_9PKf div.name-23GUGE {
+    font-size: larger;
+    transition: font-size 0.25s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.theme-dark .modeSelected-346R90 div.content-1x5b-n, .theme-light .modeSelected-346R90 div.content-1x5b-n {
+    border-radius: 5px;
+    background-color: var(--background-primary);
+}
+
+/*
+    channel desc modal
+*/
+
+.theme-dark .modal-1TF_VN.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y, .theme-light .modal-1TF_VN.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+    background-color: var(--background-primary);
+}
+
+/* 
+    upload modal 
+*/
+
+.theme-dark .uploadModal-2ifh8j, .theme-light .uploadModal-2ifh8j {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .footer-3mqk7D, .theme-light .footer-3mqk7D {
+    background-color: var(--background-secondary);
+}
+
+/* 
+    server boost colors 
+*/
+
+.theme-dark .tierHeaderUnlocked-3lTDnP, .theme-light .tierHeaderUnlocked-3lTDnP {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .tierBody-3aUxuc, .theme-light .tierBody-3aUxuc {
+    background-color: var(--background-secondary-alt);
+}
+
+/* 
+    gift modal
+*/
+
+.theme-dark .container-1D34oG, .theme-light .container-1D34oG {
+    background-color: var(--background-primary)
+}
+
+.theme-dark .tierHeaderLocked-3S508x, .theme-light .tierHeaderLocked-3S508x {
+    background-color: var(--background-secondary-faded);
+}
+
+.theme-dark .contentWrapper-2H52F3 .content-1YdlXf {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .contentWrapper-2H52F3 .content-1YdlXf div {
+    background-color: var(--background-primary);
+}
+
+/* 
+    I'm not proud of this
+ */
+
+.theme-dark .contentWrapper-2H52F3 .flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyBetween-2tTqYu.alignCenter-1dQNNs.noWrap-3jynv6.footer-2gL1pp {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark button[type="button"].button-2IFFQ4, .theme-light button[type="button"].button-2IFFQ4 {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark button[type="button"] *, .theme-light button[type="button"] * {
+    background-color: transparent;
+}
+
+.theme-dark .autocompleteInner-zh20B_.autocompleteInner-2mQ2AK, .theme-light .autocompleteInner-zh20B_.autocompleteInner-2mQ2AK {
+    background-color: var(--background-primary);
+}
+
+/* 
+    settings stuff
+*/
+
+.theme-dark .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
+    background-color: var(--background-primary);
+}
+
+.item-1tOPte.labelContainer-1BLJti.colorBrand-ROmMP1.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: var(--background-accent);
+}
+
+.item-1tOPte.labelContainer-1BLJti.focused-3afm-j {
+    background-color: var(--background-primary);
+}
+
+.emotewrapper {
+    height: fit-content;
+    width: fit-content;
+}
+
+.emotewrapper .fav {
+    transform: translateY(50%) translateX(-45%);
+}
+
+.emotewrapper img {
+    width: 40px;
+    height: 40px;
+}
