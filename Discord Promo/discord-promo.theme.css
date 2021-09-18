@@ -2,7 +2,7 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.6
+ * @version 1.0.7
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
@@ -128,6 +128,14 @@
 
 .member-3-YXUe.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md {
     background-color: #312f51;
+}
+
+/*
+    nickname modal
+*/
+
+.content-1LAB8Z.modalContent-zY2PZi.thin-1ybCId.scrollerBase-289Jih {
+    background-color: var(--background-primary);
 }
 
 /*
