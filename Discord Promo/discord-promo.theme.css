@@ -38,6 +38,8 @@
     --modify-pfp: 1;
     /* response line thing */
     --avatar-size: 50px;
+    /* general ui */
+    --switch-color: #43b581;
 }
 
 /* 
@@ -179,7 +181,29 @@
     user modal
 */
 
-.theme-dark .userPopout-xaxa6l {
+.avatarHint-2A3RNb {
+    position: absolute;
+    width: 100px !important;
+    height: 100px !important;
+    left: 50%;
+    top: calc(50% + 7.5px);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+foreignObject .avatarHintInner-1TvA8u {
+    box-shadow: none;
+    color: var(--interactive-active);
+    -webkit-filter: drop-shadow(3px 3px 2px var(--background-primary));
+    filter: drop-shadow(3px 3px 2px var(--background-primary));
+}
+
+.avatarHint-2A3RNb foreignObject {
+    position: relative;
+    clip-path: circle(50% at center);
+    mask: none;
+}
+
+.userPopout-xaxa6l {
     width: 250px !important;
 }
 
@@ -250,13 +274,46 @@
 }
 
 .mask-1l8v16.svg-2V3M55 foreignObject {
-    /* clip: rect(10px, 20px, 30px, 40px); */
     clip-path: circle(50% at center);
     mask: none;
 }
 
 .mask-1l8v16.svg-2V3M55 rect {
-    background-color: gray;
+    clip-path: circle(50% at center);
+    mask: none;
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]+rect {
+    mask: none;
+    clip-path: circle(40% at 50% 65%);
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"]+rect {
+    mask: none;
+    clip-path: circle(40% at 50% 65%);
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-round-80)"]+rect {
+    clip-path: circle(50% at center);
+    mask: none;
+}
+
+.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-120)"]+rect {
+    clip-path: circle(40% at 50% 65%);
+    mask: none;
+}
+
+/* url(#svg-mask-avatar-status-mobile-120) */
+
+.cursorDefault-dsQJ1n {
+    clip-path: circle(25% at center);
+    mask: none;
+}
+
+/* TODO: add typing indicators back on member list */
+
+.cursorDefault-dsQJ1n .dots-3Bkt3k {
+    display: none;
 }
 
 .userPopout-xaxa6l .avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionNormal-aZjAsn.clickable-1rcWFe {
@@ -278,24 +335,8 @@
     padding-top: 25px;
 }
 
-.theme-dark .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-dark .bodyInnerWrapper-26fQXj, .theme-dark .footer-3UKYOU, .theme-light .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .theme-light .bodyInnerWrapper-26fQXj, .theme-light .footer-3UKYOU {
+.body-3HBlXn.thin-1ybCId.scrollerBase-289Jih, .bodyInnerWrapper-26fQXj, .footer-3UKYOU {
     background-color: var(--background-primary);
-}
-
-.avatarHint-2A3RNb {
-    position: absolute;
-    width: 100px !important;
-    height: 100px !important;
-    left: 50%;
-    top: calc(50% + 7.5px);
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.avatarHint-2A3RNb foreignObject {
-    position: relative;
-    /* z-index: 15; */
-    clip-path: circle(50% at center);
-    mask: none;
 }
 
 .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9 {
