@@ -2,7 +2,7 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.7
+ * @version 1.0.8
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
@@ -183,6 +183,19 @@
 .theme-dark .modeSelected-346R90 div.content-1x5b-n, .theme-light .modeSelected-346R90 div.content-1x5b-n {
     border-radius: 5px;
     background-color: var(--background-primary);
+}
+
+/*
+    status picker
+*/
+
+.description-2L932D {
+    display: none;
+}
+
+.mask-1qbNWk.icon-1IxfJ2 foreignObject {
+    clip-path: circle(50% at center);
+    mask: none;
 }
 
 /*
@@ -427,6 +440,34 @@ foreignObject .avatarHintInner-1TvA8u {
 }
 
 .theme-dark .contentWrapper-2H52F3 .content-1YdlXf div {
+    background-color: var(--background-primary);
+}
+
+/*
+    channel creation modal
+*/
+
+.content-1LAB8Z.modalContent-N6GsWH.thin-1ybCId.scrollerBase-289Jih {
+    background-color: var(--background-primary);
+}
+
+.modal-2VIBV8.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+    background-color: var(--background-primary);
+}
+
+/*
+    "invite friends"
+*/
+
+.modal-1k91nT.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+    background-color: var(--background-primary);
+}
+
+/*
+    BD settings modal
+*/
+
+.content-1LAB8Z.bd-addon-modal-settings.thin-1ybCId.scrollerBase-289Jih {
     background-color: var(--background-primary);
 }
 
