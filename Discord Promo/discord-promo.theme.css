@@ -2,7 +2,7 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.8
+ * @version 1.0.9
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
@@ -306,25 +306,25 @@ foreignObject .avatarHintInner-1TvA8u {
 
 .mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]+rect {
     mask: none;
-    clip-path: circle(40% at 50% 65%);
+    clip-path: circle(39% at 50% 66%);
 }
 
 .mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"]+rect {
     mask: none;
-    clip-path: circle(40% at 50% 65%);
+    clip-path: circle(31% at 50% 72%);
 }
 
 .mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-round-80)"]+rect {
-    clip-path: circle(50% at center);
     mask: none;
+    clip-path: circle(40% at 50% 60%);
 }
 
 .mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#svg-mask-avatar-status-mobile-120)"]+rect {
-    clip-path: circle(40% at 50% 65%);
+    clip-path: circle(39% at 50% 66%);
     mask: none;
 }
 
-.mask-1l8v16.svg-2V3M55 foreignObject[mask="url(#8b4b7ecb-8b66-40ac-8521-0e3a63be04b8)"]+svg {
+.mask-1l8v16.svg-2V3M55 foreignObject+svg {
     clip-path: circle(25% at center);
     mask: none;
 }
