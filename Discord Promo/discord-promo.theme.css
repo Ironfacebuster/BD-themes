@@ -2,7 +2,7 @@
  * @name Discord Promo Theme
  * @author Ironfacebuster | YGOLG#8005
  * @authorLink https://twitter.com/ironfacebuster
- * @version 1.0.9
+ * @version 1.0.10
  * @description Inspired by the promotional images on discord.com
  * @source https://github.com/Ironfacebuster/BD-themes/tree/main/Discord%20Promo
 */
@@ -108,6 +108,18 @@
 }
 
 .theme-dark .reactionSelected-1pqISm {
+    background-color: var(--background-primary);
+}
+
+/*
+    commands popup
+*/
+
+.scroller-3gAZLs.list-17lzo8.thin-1ybCId.scrollerBase-289Jih {
+    background-color: var(--background-primary);
+}
+
+.wrapper-1-Fsb8.categoryHeader-O1zU94 {
     background-color: var(--background-primary);
 }
 
